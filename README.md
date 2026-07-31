@@ -147,14 +147,6 @@ A MASE value below 1 indicates that the model performs better than the naive bas
 
 ## Results
 
-All evaluated models demonstrated strong forecasting performance.
-
-| Model         |         R² |       RMSE |        MAE |       MASE |
-| ------------- | ---------: | ---------: | ---------: | ---------: |
-| Random Forest |     0.7925 |     9.1200 |     5.4600 |     0.5722 |
-| XGBoost       |     0.8024 |     8.9011 | **5.3033** | **0.5558** |
-| LightGBM      | **0.8062** | **8.8138** |     5.4411 |     0.5702 |
-
 LightGBM achieved the highest R² and the lowest RMSE, indicating strong performance in capturing high-magnitude dengue outbreaks.
 
 XGBoost obtained the lowest MAE and MASE, showing slightly better average forecasting performance across the validation period.
